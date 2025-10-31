@@ -1,0 +1,50 @@
+.form-autorization {
+  border-radius: 0.7rem;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+.form-autorization label {
+  margin-bottom: 1rem;
+  display: block;
+  text-align: left;
+  font-size: 1.5rem;
+}
+.form-autorization form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2.2rem 1rem 2.2rem 1rem auto;
+  grid-template-areas: "inputEmail" "errorEmail" "inputPassword" "errorPassword" "button";
+  row-gap: 0.5rem;
+}
+.form-autorization form input {
+  border: none;
+  background-color: #f2f1f1;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  outline: none;
+}
+.form-autorization form input.input-email {
+  grid-area: inputEmail;
+}
+.form-autorization form input.input-password {
+  grid-area: inputPassword;
+}
+.form-autorization form .error {
+  display: block;
+  text-align: left;
+  font-size: 0.7rem;
+  color: #ff5722;
+  user-select: none;
+}
+.form-autorization form .error.error-email {
+  grid-area: errorEmail;
+}
+.form-autorization form .error.error-password {
+  grid-area: errorPassword;
+}
+.form-autorization form button {
+  background-color: #218ee5;
+  color: white;
+  grid-area: button;
+}

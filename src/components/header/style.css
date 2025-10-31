@@ -1,0 +1,30 @@
+header {
+  border-radius: 1rem;
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+header .menu-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  padding: 0 0.5rem;
+}
+header .menu-list span {
+  cursor: pointer;
+  flex: 1;
+  width: 100%;
+  display: block;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #797878;
+  font-size: 0.88rem;
+  user-select: none;
+}
+header .menu-list span.active {
+  background-color: #bbdefb;
+  border-radius: 0.5rem;
+  color: #218ee5;
+}

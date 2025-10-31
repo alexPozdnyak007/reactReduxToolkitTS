@@ -1,0 +1,728 @@
+{
+    "food":[
+  {
+    "id": 1,
+    "name": "Пицца Маргарита",
+    "price": 450,
+    "category": "Итальянская кухня",
+    "weight": 350,
+    "spiciness": "Нет"
+  },
+  {
+    "id": 2,
+    "name": "Суши Филадельфия",
+    "price": 780,
+    "category": "Японская кухня",
+    "weight": 240,
+    "spiciness": "Нет"
+  },
+  {
+    "id": 3,
+    "name": "Бургер Чизбургер",
+    "price": 320,
+    "category": "Американская кухня",
+    "weight": 280,
+    "spiciness": "Средняя"
+  },
+  {
+    "id": 4,
+    "name": "Салат Цезарь",
+    "price": 290,
+    "category": "Салаты",
+    "weight": 200,
+    "spiciness": "Нет"
+  },
+  {
+    "id": 5,
+    "name": "Том Ям",
+    "price": 520,
+    "category": "Тайская кухня",
+    "weight": 350,
+    "spiciness": "Острая"
+  },
+  {
+    "id": 6,
+    "name": "Паста Карбонара",
+    "price": 380,
+    "category": "Итальянская кухня",
+    "weight": 300,
+    "spiciness": "Нет"
+  },
+  {
+    "id": 7,
+    "name": "Шашлык из свинины",
+    "price": 420,
+    "category": "Кавказская кухня",
+    "weight": 250,
+    "spiciness": "Слабая"
+  },
+  {
+    "id": 8,
+    "name": "Пельмени",
+    "price": 280,
+    "category": "Русская кухня",
+    "weight": 300,
+    "spiciness": "Нет"
+  },
+  {
+    "id": 9,
+    "name": "Тако",
+    "price": 350,
+    "category": "Мексиканская кухня",
+    "weight": 180,
+    "spiciness": "Острая"
+  },
+  {
+    "id": 10,
+    "name": "Стейк Рибай",
+    "price": 890,
+    "category": "Европейская кухня",
+    "weight": 400,
+    "spiciness": "Нет"
+  },
+  {
+    "id": 11,
+    "name": "Рамен",
+    "price": 410,
+    "category": "Японская кухня",
+    "weight": 450,
+    "spiciness": "Средняя"
+  },
+  {
+    "id": 12,
+    "name": "Фалафель",
+    "price": 240,
+    "category": "Восточная кухня",
+    "weight": 200,
+    "spiciness": "Слабая"
+  },
+  {
+    "id": 13,
+    "name": "Креветки в чесночном соусе",
+    "price": 670,
+    "category": "Морепродукты",
+    "weight": 280,
+    "spiciness": "Средняя"
+  },
+  {
+    "id": 14,
+    "name": "Греческий салат",
+    "price": 310,
+    "category": "Салаты",
+    "weight": 220,
+    "spiciness": "Нет"
+  },
+  {
+    "id": 15,
+    "name": "Чизкейк",
+    "price": 290,
+    "category": "Десерты",
+    "weight": 150,
+    "spiciness": "Нет"
+  },
+  {
+    "id": 16,
+    "name": "Куриные крылышки",
+    "price": 360,
+    "category": "Американская кухня",
+    "weight": 320,
+    "spiciness": "Острая"
+  },
+  {
+    "id": 17,
+    "name": "Борщ",
+    "price": 220,
+    "category": "Русская кухня",
+    "weight": 350,
+    "spiciness": "Нет"
+  },
+  {
+    "id": 18,
+    "name": "Пад Тай",
+    "price": 430,
+    "category": "Тайская кухня",
+    "weight": 300,
+    "spiciness": "Средняя"
+  },
+  {
+    "id": 19,
+    "name": "Лазанья",
+    "price": 470,
+    "category": "Итальянская кухня",
+    "weight": 350,
+    "spiciness": "Нет"
+  },
+  {
+    "id": 20,
+    "name": "Гамбургер",
+    "price": 340,
+    "category": "Американская кухня",
+    "weight": 320,
+    "spiciness": "Слабая"
+  },
+  {
+    "id": 21,
+    "name": "Спагетти Болоньезе",
+    "price": 390,
+    "category": "Итальянская кухня",
+    "weight": 330,
+    "spiciness": "Нет"
+  },
+  {
+    "id": 22,
+    "name": "Суши Калифорния",
+    "price": 520,
+    "category": "Японская кухня",
+    "weight": 220,
+    "spiciness": "Нет"
+  },
+  {
+    "id": 23,
+    "name": "Хачапури",
+    "price": 380,
+    "category": "Кавказская кухня",
+    "weight": 280,
+    "spiciness": "Нет"
+  },
+  {
+    "id": 24,
+    "name": "Фондю",
+    "price": 650,
+    "category": "Швейцарская кухня",
+    "weight": 400,
+    "spiciness": "Нет"
+  },
+  {
+    "id": 25,
+    "name": "Цыпленок табака",
+    "price": 540,
+    "category": "Кавказская кухня",
+    "weight": 450,
+    "spiciness": "Средняя"
+  },
+  {
+    "id": 26,
+    "name": "Тирамису",
+    "price": 320,
+    "category": "Десерты",
+    "weight": 180,
+    "spiciness": "Нет"
+  },
+  {
+    "id": 27,
+    "name": "Блины с икрой",
+    "price": 580,
+    "category": "Русская кухня",
+    "weight": 200,
+    "spiciness": "Нет"
+  },
+  {
+    "id": 28,
+    "name": "Такос",
+    "price": 370,
+    "category": "Мексиканская кухня",
+    "weight": 190,
+    "spiciness": "Острая"
+  },
+  {
+    "id": 29,
+    "name": "Удон",
+    "price": 440,
+    "category": "Японская кухня",
+    "weight": 400,
+    "spiciness": "Слабая"
+  },
+  {
+    "id": 30,
+    "name": "Куриный суп",
+    "price": 210,
+    "category": "Европейская кухня",
+    "weight": 350,
+    "spiciness": "Нет"
+  }
+],
+"clothes":[
+  {
+    "id": 1,
+    "name": "Джинсы классические",
+    "price": 2990,
+    "category": "Брюки",
+    "size": "M",
+    "color": "Синий"
+  },
+  {
+    "id": 2,
+    "name": "Футболка хлопковая",
+    "price": 1290,
+    "category": "Футболки",
+    "size": "L",
+    "color": "Белый"
+  },
+  {
+    "id": 3,
+    "name": "Куртка кожаная",
+    "price": 8990,
+    "category": "Верхняя одежда",
+    "size": "M",
+    "color": "Черный"
+  },
+  {
+    "id": 4,
+    "name": "Свитер шерстяной",
+    "price": 4590,
+    "category": "Свитеры",
+    "size": "S",
+    "color": "Серый"
+  },
+  {
+    "id": 5,
+    "name": "Платье коктейльное",
+    "price": 5990,
+    "category": "Платья",
+    "size": "XS",
+    "color": "Красный"
+  },
+  {
+    "id": 6,
+    "name": "Кроссовки беговые",
+    "price": 7490,
+    "category": "Обувь",
+    "size": "42",
+    "color": "Синий"
+  },
+  {
+    "id": 7,
+    "name": "Рубашка офисная",
+    "price": 3290,
+    "category": "Рубашки",
+    "size": "L",
+    "color": "Голубой"
+  },
+  {
+    "id": 8,
+    "name": "Юбка-карандаш",
+    "price": 2790,
+    "category": "Юбки",
+    "size": "M",
+    "color": "Черный"
+  },
+  {
+    "id": 9,
+    "name": "Толстовка с капюшоном",
+    "price": 3890,
+    "category": "Толстовки",
+    "size": "XL",
+    "color": "Зеленый"
+  },
+  {
+    "id": 10,
+    "name": "Пальто шерстяное",
+    "price": 12990,
+    "category": "Верхняя одежда",
+    "size": "S",
+    "color": "Бежевый"
+  },
+  {
+    "id": 11,
+    "name": "Шорты джинсовые",
+    "price": 2190,
+    "category": "Шорты",
+    "size": "M",
+    "color": "Синий"
+  },
+  {
+    "id": 12,
+    "name": "Туфли классические",
+    "price": 5690,
+    "category": "Обувь",
+    "size": "41",
+    "color": "Коричневый"
+  },
+  {
+    "id": 13,
+    "name": "Бомбер",
+    "price": 4890,
+    "category": "Верхняя одежда",
+    "size": "L",
+    "color": "Оливковый"
+  },
+  {
+    "id": 14,
+    "name": "Лонгслив",
+    "price": 1890,
+    "category": "Кофты",
+    "size": "M",
+    "color": "Бордовый"
+  },
+  {
+    "id": 15,
+    "name": "Костюм спортивный",
+    "price": 6590,
+    "category": "Спортивная одежда",
+    "size": "L",
+    "color": "Черный"
+  },
+  {
+    "id": 16,
+    "name": "Платье летнее",
+    "price": 3490,
+    "category": "Платья",
+    "size": "S",
+    "color": "Цветочный принт"
+  },
+  {
+    "id": 17,
+    "name": "Жилет утепленный",
+    "price": 7790,
+    "category": "Верхняя одежда",
+    "size": "M",
+    "color": "Темно-синий"
+  },
+  {
+    "id": 18,
+    "name": "Брюки классические",
+    "price": 3890,
+    "category": "Брюки",
+    "size": "L",
+    "color": "Черный"
+  },
+  {
+    "id": 19,
+    "name": "Кепка бейсболка",
+    "price": 890,
+    "category": "Головные уборы",
+    "size": "Универсальный",
+    "color": "Красный"
+  },
+  {
+    "id": 20,
+    "name": "Пиджак",
+    "price": 6990,
+    "category": "Верхняя одежда",
+    "size": "M",
+    "color": "Серый"
+  },
+  {
+    "id": 21,
+    "name": "Леггинсы",
+    "price": 1590,
+    "category": "Брюки",
+    "size": "S",
+    "color": "Черный"
+  },
+  {
+    "id": 22,
+    "name": "Поло",
+    "price": 2490,
+    "category": "Футболки",
+    "size": "M",
+    "color": "Зеленый"
+  },
+  {
+    "id": 23,
+    "name": "Сапоги зимние",
+    "price": 8990,
+    "category": "Обувь",
+    "size": "38",
+    "color": "Коричневый"
+  },
+  {
+    "id": 24,
+    "name": "Кардиган",
+    "price": 4290,
+    "category": "Свитеры",
+    "size": "M",
+    "color": "Розовый"
+  },
+  {
+    "id": 25,
+    "name": "Бейсболка",
+    "price": 1290,
+    "category": "Головные уборы",
+    "size": "Универсальный",
+    "color": "Черный"
+  },
+  {
+    "id": 26,
+    "name": "Плащ дождевик",
+    "price": 5490,
+    "category": "Верхняя одежда",
+    "size": "S",
+    "color": "Прозрачный"
+  },
+  {
+    "id": 27,
+    "name": "Майка",
+    "price": 990,
+    "category": "Футболки",
+    "size": "L",
+    "color": "Черный"
+  },
+  {
+    "id": 28,
+    "name": "Юбка миди",
+    "price": 3190,
+    "category": "Юбки",
+    "size": "M",
+    "color": "Синий"
+  },
+  {
+    "id": 29,
+    "name": "Кроссовки повседневные",
+    "price": 4990,
+    "category": "Обувь",
+    "size": "43",
+    "color": "Белый"
+  },
+  {
+    "id": 30,
+    "name": "Термобелье",
+    "price": 2790,
+    "category": "Нижнее белье",
+    "size": "M",
+    "color": "Черный"
+  }
+],
+"electonic":[
+  {
+    "id": 1,
+    "name": "Смартфон Samsung Galaxy S23",
+    "price": 79990,
+    "category": "Смартфоны",
+    "brand": "Samsung",
+    "inStock": true
+  },
+  {
+    "id": 2,
+    "name": "Ноутбук Apple MacBook Air M2",
+    "price": 129990,
+    "category": "Ноутбуки",
+    "brand": "Apple",
+    "inStock": true
+  },
+  {
+    "id": 3,
+    "name": "Наушники Sony WH-1000XM4",
+    "price": 24990,
+    "category": "Наушники",
+    "brand": "Sony",
+    "inStock": true
+  },
+  {
+    "id": 4,
+    "name": "Телевизор LG OLED 55\"",
+    "price": 89990,
+    "category": "Телевизоры",
+    "brand": "LG",
+    "inStock": false
+  },
+  {
+    "id": 5,
+    "name": "Планшет iPad Air",
+    "price": 59990,
+    "category": "Планшеты",
+    "brand": "Apple",
+    "inStock": true
+  },
+  {
+    "id": 6,
+    "name": "Умные часы Apple Watch Series 9",
+    "price": 32990,
+    "category": "Умные часы",
+    "brand": "Apple",
+    "inStock": true
+  },
+  {
+    "id": 7,
+    "name": "Игровая консоль PlayStation 5",
+    "price": 54990,
+    "category": "Игровые консоли",
+    "brand": "Sony",
+    "inStock": false
+  },
+  {
+    "id": 8,
+    "name": "Фотокамера Canon EOS R6",
+    "price": 159990,
+    "category": "Фотоаппараты",
+    "brand": "Canon",
+    "inStock": true
+  },
+  {
+    "id": 9,
+    "name": "Ноутбук игровой ASUS ROG",
+    "price": 149990,
+    "category": "Ноутбуки",
+    "brand": "ASUS",
+    "inStock": true
+  },
+  {
+    "id": 10,
+    "name": "Смартфон Xiaomi Redmi Note 12",
+    "price": 21990,
+    "category": "Смартфоны",
+    "brand": "Xiaomi",
+    "inStock": true
+  },
+  {
+    "id": 11,
+    "name": "Монитор Dell 27\"",
+    "price": 32990,
+    "category": "Мониторы",
+    "brand": "Dell",
+    "inStock": true
+  },
+  {
+    "id": 12,
+    "name": "Клавиатура механическая Logitech",
+    "price": 8990,
+    "category": "Компьютерные аксессуары",
+    "brand": "Logitech",
+    "inStock": true
+  },
+  {
+    "id": 13,
+    "name": "Внешний жесткий диск Seagate 2TB",
+    "price": 5990,
+    "category": "Накопители",
+    "brand": "Seagate",
+    "inStock": true
+  },
+  {
+    "id": 14,
+    "name": "Умная колонка Яндекс Станция",
+    "price": 12990,
+    "category": "Умный дом",
+    "brand": "Яндекс",
+    "inStock": true
+  },
+  {
+    "id": 15,
+    "name": "Роутер TP-Link Archer",
+    "price": 4990,
+    "category": "Сетевое оборудование",
+    "brand": "TP-Link",
+    "inStock": true
+  },
+  {
+    "id": 16,
+    "name": "Мышь игровая Razer DeathAdder",
+    "price": 6990,
+    "category": "Компьютерные аксессуары",
+    "brand": "Razer",
+    "inStock": false
+  },
+  {
+    "id": 17,
+    "name": "Электронная книга PocketBook",
+    "price": 12990,
+    "category": "Электронные книги",
+    "brand": "PocketBook",
+    "inStock": true
+  },
+  {
+    "id": 18,
+    "name": "Дрон DJI Mini 3 Pro",
+    "price": 79990,
+    "category": "Дроны",
+    "brand": "DJI",
+    "inStock": true
+  },
+  {
+    "id": 19,
+    "name": "Процессор Intel Core i7",
+    "price": 32990,
+    "category": "Комплектующие",
+    "brand": "Intel",
+    "inStock": true
+  },
+  {
+    "id": 20,
+    "name": "Видеокарта NVIDIA RTX 4070",
+    "price": 89990,
+    "category": "Комплектующие",
+    "brand": "NVIDIA",
+    "inStock": false
+  },
+  {
+    "id": 21,
+    "name": "Микрофон Blue Yeti",
+    "price": 15990,
+    "category": "Аудио",
+    "brand": "Blue",
+    "inStock": true
+  },
+  {
+    "id": 22,
+    "name": "Игровая приставка Xbox Series X",
+    "price": 49990,
+    "category": "Игровые консоли",
+    "brand": "Microsoft",
+    "inStock": true
+  },
+  {
+    "id": 23,
+    "name": "Портативная колонка JBL Flip 6",
+    "price": 8990,
+    "category": "Аудио",
+    "brand": "JBL",
+    "inStock": true
+  },
+  {
+    "id": 24,
+    "name": "Смарт-часы Samsung Galaxy Watch",
+    "price": 19990,
+    "category": "Умные часы",
+    "brand": "Samsung",
+    "inStock": true
+  },
+  {
+    "id": 25,
+    "name": "МФУ лазерный HP",
+    "price": 18990,
+    "category": "Оргтехника",
+    "brand": "HP",
+    "inStock": true
+  },
+  {
+    "id": 26,
+    "name": "Веб-камера Logitech C920",
+    "price": 7990,
+    "category": "Компьютерные аксессуары",
+    "brand": "Logitech",
+    "inStock": true
+  },
+  {
+    "id": 27,
+    "name": "Планшет Samsung Galaxy Tab S9",
+    "price": 74990,
+    "category": "Планшеты",
+    "brand": "Samsung",
+    "inStock": false
+  },
+  {
+    "id": 28,
+    "name": "ИБП CyberPower",
+    "price": 12990,
+    "category": "Сетевое оборудование",
+    "brand": "CyberPower",
+    "inStock": true
+  },
+  {
+    "id": 29,
+    "name": "Игровое кресло DXRacer",
+    "price": 34990,
+    "category": "Гейминг",
+    "brand": "DXRacer",
+    "inStock": true
+  },
+  {
+    "id": 30,
+    "name": "SSD накопитель Samsung 1TB",
+    "price": 7990,
+    "category": "Накопители",
+    "brand": "Samsung",
+    "inStock": true
+  }
+]
+}

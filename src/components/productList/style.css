@@ -1,0 +1,45 @@
+.productsList .sort-container {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  column-gap: 1rem;
+  height: 3rem;
+  padding: 0 0.3rem;
+}
+.productsList .sort-container > div {
+  font-size: 0.8rem;
+  cursor: pointer;
+  user-select: none;
+}
+.productsList .sort-container > div:hover {
+  color: #208ee5;
+}
+.productsList .sort-container > div.active {
+  color: #208ee5;
+}
+.productsList .pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.5rem;
+}
+.productsList .pagination button {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  font-size: 0.8rem;
+}
+.productsList .pagination button.active {
+  background-color: #208ee5;
+  color: white;
+}
+.productsList .pagination button:focus {
+  outline: none;
+}
+.productsList .pagination button:hover {
+  outline: none;
+}

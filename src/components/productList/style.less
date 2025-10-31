@@ -1,0 +1,52 @@
+.productsList {
+  .sort-container {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    column-gap: 1rem;
+    height: 3rem;
+    padding: 0 0.3rem;
+    > div {
+      font-size: 0.8rem;
+      cursor: pointer;
+      user-select: none;
+
+      &:hover {
+        color: #208ee5;
+      }
+
+      &.active {
+        color: #208ee5;
+      }
+    }
+  }
+
+  .list {
+  }
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.5rem;
+    button {
+      width: 2.5rem;
+      height: 2.5rem;
+      border-radius: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      font-size: 0.8rem;
+      &.active {
+        background-color: #208ee5;
+        color: white;
+      }
+      &:focus {
+        outline: none;
+      }
+      &:hover {
+        outline: none;
+      }
+    }
+  }
+}
