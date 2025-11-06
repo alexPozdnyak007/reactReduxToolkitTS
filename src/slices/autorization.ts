@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
-import {type autorization} from '../types/types'
+import {type Autorization} from '../types/types'
 
-const initialState:autorization={
+const initialState:Autorization={
     isAutorization:false
 }
 

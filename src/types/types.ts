@@ -1,4 +1,4 @@
-export type autorization={
+export type Autorization={
     isAutorization:boolean
 }
 
