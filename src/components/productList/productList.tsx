@@ -1,14 +1,13 @@
 import { useState,useMemo } from "react"
-import {type FoodType, type ClothesType, type ElectronicType} from '../../types/types'
+import {type UnionProduct} from '../../types/types'
 import CardProduct from "../cardProduct/cardProduct"
 import './style.less'
 
 
 //Типизируем массив с товароми
-type productType=FoodType|ClothesType|ElectronicType;
 
 interface ProductListProps {
-  products: productType[];
+  products: UnionProduct[];
 }
 
 export default function ProductList({products}:ProductListProps){
@@ -50,7 +49,7 @@ export default function ProductList({products}:ProductListProps){
             </div>
             <div className="list">
                {currentProducts.map(product => (
-                <CardProduct key={product.id} props={product}></CardProduct>
+                <CardProduct key={product.id} product={product}></CardProduct>
                 ))}
             </div>
             <div className="pagination">

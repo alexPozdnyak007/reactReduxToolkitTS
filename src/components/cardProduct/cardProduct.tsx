@@ -1,19 +1,18 @@
 
 import { useCart } from '../../context/cartContext';
-import {type FoodType, type ClothesType, type ElectronicType} from '../../types/types'
+import {type UnionProduct} from '../../types/types'
 import './style.less'
 
-type Product = FoodType|ClothesType|ElectronicType;
 
 interface CardProductProps {
-    props: Product;
+    product: UnionProduct;
 }
 
-export default function CardProduct({props}:CardProductProps){
-    const {name, price,id,size,color,category,weight,spiciness,brand,inStock}=props as any;
+export default function CardProduct({product}:CardProductProps){
+    const {name, price,id,size,color,category,weight,spiciness,brand,inStock}=product as any;
     const {addToCart,hasItemCart}=useCart();
     const handlerClick=function(){
-        addToCart(props);
+        addToCart(product);
     }
     return(
         <>
@@ -30,7 +29,7 @@ export default function CardProduct({props}:CardProductProps){
             </div>
             <div className='footer-container'>
                 <div className='price-container'><span>Цена: </span>{price} руб.</div>
-                <button onClick={()=>handlerClick()} disabled={hasItemCart(props.id)? true:false} >{hasItemCart(props.id) ? '✓ В корзине' : 'Купить'}</button>
+                <button onClick={()=>handlerClick()} disabled={hasItemCart(product.id)? true:false} >{hasItemCart(product.id) ? '✓ В корзине' : 'Купить'}</button>
             </div>
         </div>
         </>

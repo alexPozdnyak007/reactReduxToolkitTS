@@ -1,10 +1,9 @@
 import './style.less'
-import { type FoodType, type ClothesType, type ElectronicType } from "../../types/types";
+import { type UnionProduct } from "../../types/types";
 import { useCart } from '../../context/cartContext'; 
 
-type unionProducts = FoodType | ClothesType | ElectronicType;
 interface Products{
-    props:unionProducts
+    props:UnionProduct
 }
 export default function CartProductItem({props}:Products){
     const {removeItemCart}=useCart();

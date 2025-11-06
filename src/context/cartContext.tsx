@@ -1,11 +1,10 @@
 import { createContext, useContext, useState, useCallback, type ReactNode } from "react";
-import { type FoodType, type ClothesType, type ElectronicType } from "../types/types";
+import { type UnionProduct } from "../types/types";
 
-type unionProducts = FoodType | ClothesType | ElectronicType;
 
 interface cartContextType{
-    cartItems:unionProducts[],
-    addToCart:(product:unionProducts)=> void,
+    cartItems:UnionProduct[],
+    addToCart:(product:UnionProduct)=> void,
     totalPriceCart:number,
     removeItemCart:(id:number)=>void,
     hasItemCart:(id:number)=> boolean,
@@ -16,10 +15,10 @@ interface cartContextType{
 const СartContext=createContext<cartContextType|null>(null);
 
 export function CartProvider({children}:{children:ReactNode}){
-    const [cartItems,setCartItems]=useState<unionProducts[]>([]);
+    const [cartItems,setCartItems]=useState<UnionProduct[]>([]);
 
     //Функция добавления в корзину
-    const addToCart=useCallback((product:unionProducts)=>{
+    const addToCart=useCallback((product:UnionProduct)=>{
       setCartItems(prev => {
       if (prev.some(item => item.id === product.id)) {
         return prev; // Защита от дубликатов
