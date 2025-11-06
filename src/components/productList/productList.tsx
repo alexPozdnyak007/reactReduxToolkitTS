@@ -76,7 +76,7 @@ export default function ProductList({products}:ProductListProps){
     
    },[searchParams]);
 
-   // Массив со страницами 
+   // array pages
    const pagesNumber=[];
    for(let i=1; i<=totalPages; i++){
     pagesNumber.push(i);
