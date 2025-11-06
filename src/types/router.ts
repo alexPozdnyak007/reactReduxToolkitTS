@@ -3,6 +3,7 @@ export interface UserParams{
 }
 
 export interface SearchParams{
-    q?:string;
-    page?:string;
+    page:number;
+    filter:'name'|'price'|'default'
 }
+
