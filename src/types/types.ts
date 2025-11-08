@@ -9,16 +9,17 @@ export type ProductType={
     category: string,
 }
 export type FoodType = ProductType & {
-    weight: number,
-    spiciness: string
+    weight?: number,
+    spiciness?: string
 }
 export type ClothesType = ProductType & {
-    size: number,
-    color: string
+    size?: number,
+    color?: string
 }
 export type ElectronicType = ProductType & {
-    brand: string,
-    inStock: boolean
+    brand?: string,
+    inStock?: boolean
 }
 
 export type UnionProduct=FoodType|ClothesType|ElectronicType;
+

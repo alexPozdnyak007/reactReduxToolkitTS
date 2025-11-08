@@ -14,6 +14,6 @@ export const autorizationUser=createSlice({
     }
 });
 
-export const {loginIn} = autorizationUser.actions
-export default autorizationUser.reducer
+export const {loginIn} = autorizationUser.actions;
+export default autorizationUser.reducer;
 

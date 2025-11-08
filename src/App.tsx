@@ -3,19 +3,15 @@ import Form from './components/form/form'
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import FoodPage from './components/pages/food';
 import Cart from './components/cart/cart';
-import { CartProvider } from './context/cartContext';
 import Header from './components/header/header';
 import ElectronicsPage from './components/pages/electronics';
 import ClothesPage from './components/pages/clothes';
 import { useAuth } from './hooks/checkUser';
 
-
 export default function App() {
   const isUser =useAuth();
   return (
     <>
-    
-    <CartProvider>
           <Cart/>
           <BrowserRouter>
            {isUser && <Header/>}
@@ -25,8 +21,7 @@ export default function App() {
             <Route path="/clothes" element={isUser ? <ClothesPage /> : <Form/>}></Route>
            </Routes>
           </BrowserRouter>
-    </CartProvider>
-   
+
     </>
   )
 }

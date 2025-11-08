@@ -3,13 +3,15 @@ import AutorizationReducer  from "../slices/autorization";
 import FoodReducer from "../slices/foodSlice";
 import ElectronicReducer from "../slices/electronicSlice";
 import ClothesReducer from "../slices/clothesSlice";
+import CartProductReducer from  "../slices/cart";
 
 export const store=configureStore({
     reducer:{
         autorization:AutorizationReducer,
         foodData:FoodReducer,
         electronicData:ElectronicReducer,
-        clothesData:ClothesReducer
+        clothesData:ClothesReducer,
+        cartReducer:CartProductReducer,
     }
 });
 
